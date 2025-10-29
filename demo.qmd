@@ -35,3 +35,12 @@ library(tidyverse)
 mtcars %>% ggplot(aes(mpg,wt)) + geom_point() +
   theme_minimal()
 ```
+
+```{r}
+mtcars %>% ggplot(aes(mpg,wt)) + geom_line()
+```
+
+
+
+
+
