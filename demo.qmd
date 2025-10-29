@@ -34,3 +34,12 @@ The `echo: false` option disables the printing of code (only output is displayed
 library(tidyverse)
 mtcars %>% ggplot(aes(mpg,wt)) + geom_point()
 ```
+
+```{r}
+mtcars %>% ggplot(aes(mpg,wt)) + geom_line()
+```
+
+
+
+
+
