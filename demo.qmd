@@ -1,6 +1,10 @@
 ---
 title: "Untitled"
+<<<<<<< HEAD
 author: Sara Kiros 
+=======
+format: Sara Kiros 
+>>>>>>> origin/main
 editor: visual
 ---
 
