@@ -32,5 +32,6 @@ The `echo: false` option disables the printing of code (only output is displayed
 ```{r}
 #install.packages("tidyverse")
 library(tidyverse)
-mtcars %>% ggplot(aes(mpg,wt)) + geom_point()
+mtcars %>% ggplot(aes(mpg,wt)) + geom_point() +
+  theme_minimal()
 ```
